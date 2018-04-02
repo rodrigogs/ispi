@@ -4,9 +4,9 @@ Check if the program is running on a Raspberry Pi.
 
 ## Usage
 It may be used as a lib:
-> `$ npm install ispi --save`
+> `$ npm install @rodrigogs/ispi --save`
 ```javascript
-  const ispi = require('ispi');
+  const ispi = require('@rodrigogs/ispi');
 
   ispi()
     .then(isPi => console.log(isPi))
@@ -14,7 +14,7 @@ It may be used as a lib:
 ```
 
 Or as a cli:
-> `$ npm install ispi -g`
+> `$ npm install @rodrigogs/ispi -g`
 ```bash
 $ ispi
 true
