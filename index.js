@@ -14,3 +14,15 @@ module.exports = () => new Promise((resolve, reject) => {
     });
   });
 });
+
+module.exports.sync = () => {
+  try {
+    fs.accessSync(MODEL_FILE_PATH, fs.constants.R_OK);
+  } catch (err) {
+    return false;
+  }
+
+  const model = fs.readFileSync(MODEL_FILE_PATH);
+
+  return PATTERN.test(model);
+};

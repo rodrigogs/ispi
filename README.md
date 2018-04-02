@@ -8,9 +8,13 @@ It may be used as a lib:
 ```javascript
   const ispi = require('@rodrigogs/ispi');
 
+  // Async
   ispi()
-    .then(isPi => console.log(isPi))
+    .then(isPi => console.log(isPi)) // true or false
     .catch(err => console.error(err));
+
+  // Sync
+  ispi.sync(); // true or false
 ```
 
 Or as a cli:
