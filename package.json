@@ -1,5 +1,5 @@
 {
-  "name": "ispi",
+  "name": "@rodrigogs/ispi",
   "description": "Check if the program is running on a Raspberry Pi",
   "version": "1.0.0",
   "license": "bsd-3-clause",
