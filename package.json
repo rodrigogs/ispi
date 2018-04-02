@@ -1,0 +1,32 @@
+{
+  "name": "ispi",
+  "description": "Check if the program is running on a Raspberry Pi",
+  "version": "1.0.0",
+  "license": "bsd-3-clause",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint . --ext .js"
+  },
+  "bin": {
+    "ispi": "bin/ispi"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "husky": "^0.15.0-rc.9"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run eslint"
+    }
+  }
+}

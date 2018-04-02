@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+
+const ispi = require('./..');
+
+ispi()
+  .then(isPi => console.log(isPi))
+  .catch(err => console.error(err));
