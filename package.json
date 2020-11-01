@@ -10,19 +10,11 @@
   "bin": {
     "ispi": "bin/ispi"
   },
-  "dependencies": {
-    "cookie-parser": "~1.4.3",
-    "debug": "~2.6.9",
-    "express": "~4.16.0",
-    "http-errors": "~1.6.2",
-    "jade": "~1.11.0",
-    "morgan": "~1.9.0"
-  },
   "devDependencies": {
-    "eslint": "^4.19.0",
-    "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-import": "^2.9.0",
-    "husky": "^0.15.0-rc.9"
+    "eslint": "^7.12.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "husky": "^4.3.0"
   },
   "husky": {
     "hooks": {
